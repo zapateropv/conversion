@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    
+    background-image: url("/portfolio/images-src/bg.png");
+    
+
+}
+
+.container{
+ width: 500px;
+ height: 500px;
+
+ 
+ background: rgba( 218, 217, 217, 0.1 );
+ box-shadow: 0 8px 32px 0 rgba(252, 252, 253, 0.37);
+ backdrop-filter: blur( 5.5px );
+ -webkit-backdrop-filter: blur( 5.5px );
+ border-radius: 10px;
+
+ display: flex;
+ flex-direction: column;
+
+align-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+#input1{
+
+    width: 200px;
+    height: 50px;
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    outline: none;
+    margin-top: 40px;
+    border-radius: 20px;
+    border: none;
+}
+
+
+#input2, #input3{
+
+    color: white;
+    margin-top: 50px;
+}
+
+.container-1, .container-2{
+    font-family: monospace;
+    color: white;
+    font-size: 25px;
+}
+
+button{
+
+    border: none;
+    padding: 10px 50px;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 40px;
+    color: black;
+}
+
+button:hover{
+    background-color: #f8f8f8c7;
+}
+
+button:active{
+    background-color: #f8f8f894;
+}
+
+.container-result{
+    font-family: monospace;
+    color: white; 
+    font-size: 20px;
+
+    margin-top: 40px;
+    
+}
+
+
+@media(max-width: 563px){
+
+.container{
+    width: 400px;
+}
+}
+
+@media(max-width: 437px){
+
+    .container{
+        width: 300px;
+        text-align: center;
+    }
+
+    
+    .container{
+        width: 250px;
+        text-align: center;
+    }
+
+    .container-1, .container-2{
+        font-size: 1.2rem;
+    }
+    }
+
+    @media(max-width: 329px){
+
+        .container{
+            width: 250px;
+            text-align: center;
+        }
+
+        .container-1, .container-2{
+            font-size: 1.2rem;
+        }
+        }
